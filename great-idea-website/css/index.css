@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+nav {
+	display:inline-block;
+	color: lightslategray;
+}
+
+.header, .navigation, .fa, .spv, .contact-container, .midimg {
+	width: 800px;
+	position: relative;
+	margin: auto;
+	padding: 40px 0px;
+}
+
+.navigation nav p {
+	display: inline-block;
+	margin: 0px 50px 0px 0px;
+}
+
+.hb {
+	width: 200px;
+	margin: 0px 105px 0px 105px;
+	text-align: center;
+	position: relative;
+	top: -80px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+button {
+	background: white;
+	color: black;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	width: 150px;
+	height: 30px;
+	font-size: 12;
+}
+
+.hb, .circle {
+	display: inline-block;
+}
+
+.features, .about {
+	width: 49.5%;
+	display:inline-block;
+}
+
+.middle-img {
+	width: 800px;
+}
+
+.services, .product, .vision {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	top: 0;
+}
+
+.spv {
+	padding: 0px 0px 40px 0px;
+}
+
+.spv, .header {
+	border-bottom: 1px solid black;
+}
+
+.midimg {
+	padding: 0px 0px 40px 0px;
+}
+
+.contact {
+	width: 140px;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 125px;
+}
